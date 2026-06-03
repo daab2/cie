@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Monitor</title>
+    <meta http-equiv="refresh" content="2">
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #0f172a;
+            color: white;
+        }
+        .card {
+            margin-top: 100px;
+            padding: 30px;
+            border-radius: 15px;
+            background: #1e293b;
+            display: inline-block;
+        }
+        h1 { color: #38bdf8; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🌦 Raspberry Pi Weather</h1>
+    <h2>Temperature: {{ temperature }} °C</h2>
+    <h2>Humidity: {{ humidity }} %</h2>
+</div>
+
+</body>
+</html>
