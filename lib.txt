@@ -1,19 +1,13 @@
-1. VIRTUAL ENVIRONMENT SETUP
-----------------------------
 python3 -m venv env
 source env/bin/activate
 pip install RPi.GPIO requests Flask adafruit-circuitpython-dht Adafruit-Blinka
 
-2. LIBRARIES & EXPERIMENTS
---------------------------
 - RPi.GPIO                  -> exp6, exp8, exp9, exp10
 - requests                  -> exp9
 - Flask                     -> exp7
 - adafruit-circuitpython-dht -> exp7
 - Adafruit-Blinka           -> exp7
 
-3. PIN MAP (40-Pin Header)
---------------------------
 - GPIO 4  (Left, 4th pin  | Pin 7)  -> exp7
 - GPIO 17 (Left, 6th pin  | Pin 11) -> exp6, exp8, exp9, exp10
 - GPIO 27 (Left, 7th pin  | Pin 13) -> exp6
