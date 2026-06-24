@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Try 0x27 or 0x3F if not working
-
+// SDA A4, SCL A5
 int pulsePin = A0;
 int threshold = 550;
 
