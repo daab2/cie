@@ -1,7 +1,7 @@
 python3 -m venv env
 source env/bin/activate
 pip install RPi.GPIO requests Flask adafruit-circuitpython-dht Adafruit-Blinka
-
+or: pip3 install --user adafruit-circuitpython-dht
 - RPi.GPIO                  -> exp6, exp8, exp9, exp10
 - requests                  -> exp9
 - Flask                     -> exp7
