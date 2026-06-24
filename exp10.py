@@ -31,13 +31,13 @@ try:
         if moisture == 1:
             print("Soil is DRY")
             if not dry_alert_sent:
-                send_email("Soil Dry Alert 🌱", "The soil is dry. Please water the plant.")
+                send_email("Soil Dry Alert ", "The soil is dry. Please water the plant.")
                 dry_alert_sent = True
                 wet_alert_sent = False
         else:
             print("Soil is WET")
             if not wet_alert_sent:
-                send_email("Soil Wet Update 💧", "Soil moisture is sufficient.")
+                send_email("Soil Wet Update ", "Soil moisture is sufficient.")
                 wet_alert_sent = True
                 dry_alert_sent = False
         time.sleep(5)
