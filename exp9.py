@@ -36,6 +36,7 @@ try:
 				print("Upload Failed")
 		except Exception as e:
 			print("Internet Error:", e)
+		time.sleep(15)
 except KeyboardInterrupt:
 	GPIO.cleanup()
 	print("Program Stopped")			
